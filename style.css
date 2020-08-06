@@ -1,0 +1,49 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color:#232323;
+}
+
+
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+#colorDisplay{
+    font-size: 40px;
+    font-weight: 900;
+    display: block;
+}
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+#message{
+    color:black;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin : 1%;
+    border-radius: 30%;
+}
+
+.selected{
+    background-color: yellow;
+}
