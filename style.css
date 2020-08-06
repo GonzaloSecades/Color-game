@@ -29,6 +29,10 @@ h1{
 
 #message{
     color:black;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
 }
 
 .container{
@@ -42,6 +46,10 @@ h1{
     padding-bottom: 30%;
     margin : 1%;
     border-radius: 30%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
 }
 
 .selected{
